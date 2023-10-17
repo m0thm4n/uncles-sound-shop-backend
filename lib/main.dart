@@ -8,12 +8,6 @@ import 'package:mailer/smtp_server.dart';
 void main() async {
   /// This demo's handling an API Gateway request.
   final Handler<AwsApiGatewayEvent> emailServiceApiGateway = (context, event) async {
-     final resp = {
-    'message': 'Hello to ${context.requestId}',
-    'host': '${event.headers.host}',
-    'userAgent': '${event.headers.userAgent}',
-    };
-    
     String username = 'uncles-assistant@duocore.dev';
     String password = 'UnclesAssistant123!';
 
@@ -24,7 +18,7 @@ void main() async {
     // Create our message.
     final message = Message()
       ..from = Address(username, 'Assistant')
-      ..recipients.add('bob.uncleproducer@gmail.com')
+      ..recipients.add('nathan.moritz@duocore.dev')
       // ..ccRecipients.addAll(['destCc1@example.com', 'destCc2@example.com'])
       // ..bccRecipients.add(Address('bccAddress@example.com'))
       ..subject = mappedData['subject']
@@ -40,6 +34,12 @@ void main() async {
         print('Problem: ${p.code}: ${p.msg}');
       }
     }
+
+    final resp = {
+      'message': "You're message was successfully sent.",
+      'host': '${event.headers.host}',
+      'userAgent': '${event.headers.userAgent}',
+    };
 
     final response = AwsApiGatewayResponse(
       body: json.encode(resp),
