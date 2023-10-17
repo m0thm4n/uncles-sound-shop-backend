@@ -92,6 +92,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "clock",
+      "rootUri": "file:///Users/nathan/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "code_builder",
       "rootUri": "file:///Users/nathan/.pub-cache/hosted/pub.dev/code_builder-4.7.0",
       "packageUri": "lib/",
@@ -170,6 +176,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/nathan/.pub-cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "io",
       "rootUri": "file:///Users/nathan/.pub-cache/hosted/pub.dev/io-1.0.4",
       "packageUri": "lib/",
@@ -192,6 +204,12 @@
       "rootUri": "file:///Users/nathan/.pub-cache/hosted/pub.dev/logging-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "mailer",
+      "rootUri": "file:///Users/nathan/.pub-cache/hosted/pub.dev/mailer-6.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
@@ -332,7 +350,7 @@
       "languageVersion": "2.6"
     }
   ],
-  "generated": "2023-10-17T21:03:48.185696Z",
+  "generated": "2023-10-17T21:31:33.702888Z",
   "generator": "pub",
   "generatorVersion": "2.19.5"
 }
