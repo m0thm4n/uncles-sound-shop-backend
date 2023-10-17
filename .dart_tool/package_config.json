@@ -344,13 +344,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "hello",
+      "name": "main",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     }
   ],
-  "generated": "2023-10-17T21:31:33.702888Z",
+  "generated": "2023-10-17T21:53:53.627260Z",
   "generator": "pub",
   "generatorVersion": "2.19.5"
 }
