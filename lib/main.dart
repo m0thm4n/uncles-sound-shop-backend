@@ -26,7 +26,7 @@ void main() async {
       // ..html = "<h1>Test</h1>\n<p>Hey! Here's some HTML content</p>";
 
     try {
-      final sendReport = send(message, smtpServer);
+      final sendReport = await send(message, smtpServer);
       print('Message sent: ' + sendReport.toString());
     } on MailerException catch (e) {
       print('Message not sent.');
@@ -36,7 +36,7 @@ void main() async {
     }
 
     final resp = {
-      'message': "${event.body}",
+      'message': "${mappedData['details']}",
       'host': '${event.headers.host}',
       'userAgent': '${event.headers.userAgent}',
     };
