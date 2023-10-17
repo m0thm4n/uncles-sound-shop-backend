@@ -18,7 +18,7 @@ void main() async {
     // Create our message.
     final message = Message()
       ..from = Address(username, 'Assistant')
-      ..recipients.add('nathan.moritz@protonmail.com')
+      ..recipients.add('bob.uncleproducer@gmail.com')
       // ..ccRecipients.addAll(['destCc1@example.com', 'destCc2@example.com'])
       // ..bccRecipients.add(Address('bccAddress@example.com'))
       ..subject = mappedData['subject']
