@@ -8,8 +8,8 @@ void main() async {
   final Handler<AwsApiGatewayEvent> emailServiceApiGateway = (context, event) async {
      final resp = {
     'message': 'Hello to ${context.requestId}',
-    'host': '${event.headers!.host}',
-    'userAgent': '${event.headers!.userAgent}',
+    'host': '${event.headers.host}',
+    'userAgent': '${event.headers.userAgent}',
   };
   final response = AwsApiGatewayResponse(
     body: json.encode(resp),
