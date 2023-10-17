@@ -1,7 +1,5 @@
-import 'package:uncles_sound_shop_backend/uncles_sound_shop_backend.dart';
 import 'package:conduit_test/conduit_test.dart';
 
-export 'package:uncles_sound_shop_backend/uncles_sound_shop_backend.dart';
 export 'package:conduit_test/conduit_test.dart';
 export 'package:test/test.dart';
 export 'package:conduit_core/conduit_core.dart';

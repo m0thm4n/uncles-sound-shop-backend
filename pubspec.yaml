@@ -13,7 +13,8 @@ dependencies:
   shelf: ^1.4.1
   shelf_cors_headers: ^0.1.5
   shelf_router: ^1.1.4
+  aws_lambda_dart_runtime: ^1.1.0
 
 dev_dependencies:
   test: ^1.21.6
-  conduit_test: ^4.3.6
+  build_runner:
