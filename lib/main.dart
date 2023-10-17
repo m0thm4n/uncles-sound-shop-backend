@@ -36,7 +36,7 @@ void main() async {
     }
 
     final resp = {
-      'message': "You're message was successfully sent.",
+      'message': "${event.body}",
       'host': '${event.headers.host}',
       'userAgent': '${event.headers.userAgent}',
     };
