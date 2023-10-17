@@ -46,7 +46,11 @@ void main() async {
       isBase64Encoded: false,
       statusCode: HttpStatus.ok,
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Credentials': 'true',
+        'Access-Control-Allow-Headers': '*',
+        'Access-Control-Allow-Methods': 'OPTIONS,POST,DELETE',
       },
     );
 
