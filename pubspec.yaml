@@ -1,20 +1,10 @@
-name: uncles_sound_shop_backend
-description: An empty conduit application.
-version: 0.0.1
-publish_to: none
+name: hello
 
 environment:
-  sdk: ">=2.19.2 <4.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
-  conduit: ^4.3.7
-  conduit_core: ^4.3.6
-  mailer: ^6.0.1
-  shelf: ^1.4.1
-  shelf_cors_headers: ^0.1.5
-  shelf_router: ^1.1.4
-  aws_lambda_dart_runtime: ^1.1.0
+  aws_lambda_dart_runtime:
 
 dev_dependencies:
-  test: ^1.21.6
   build_runner:
